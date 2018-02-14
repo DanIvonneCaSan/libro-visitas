@@ -1,1 +1,60 @@
-ECHO est� activado.
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="twitter:" content="">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <title>GuestBook</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <h1>Libro de visitas</h1>
+    <section class="commentreg">
+      <h4>Comentarios pasados:</h4>
+      <div class="comments">
+        <p class="textcomment"> XD</p>
+        <hr>
+      </div>
+      <div class="comments">
+        <p class="textcomment"> Ok :D</p>
+        <hr>
+      </div>
+    </section>
+    <section class="edit">
+      <h2>Agregar nuevo comentario</h2>
+      <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-default" id="small">Small</button>
+        <button type="button" class="btn btn-default" id="medium">Medium</button>
+        <button type="button" class="btn btn-default" id="large">Large</button>
+        <button type="button" class="btn btn-default" id="textcolor">Color de Texto</button>
+        <button type="button" class="btn btn-default" id="backgndcolor">Color de Fondo</button>
+        <button type="button" class="btn btn-default" id="left">Izquierda</button>
+        <button type="button" class="btn btn-default" id="center">Centro</button>
+        <button type="button" class="btn btn-default" id="right">Derecha</button>
+      </div>
+      <h2>Así se vería tu comentario</h2>
+      <!-- Texto con formato aplicado  -->
+      <div class="showcontent">
+        <textarea name="content" rows="8" cols="80" id="textarea">
+
+        </textarea>
+      </div>
+      <button type="submit" name="button" id="send">Enviar comentario</button>
+    </section>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./js/app.js">
+  </script>
+</body>
+
+</html>
